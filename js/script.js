@@ -30,8 +30,5 @@ window.onscroll = () =>{
     shoppingCart.classList.remove('active');
     loginForm.classList.remove('active');
     navBar.classList.remove('active');
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 6d8c4d48a96d64ec0811d1e0012f67d55430c475

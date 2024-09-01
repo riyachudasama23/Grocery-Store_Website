@@ -265,7 +265,7 @@ section{
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
+
 .home{
     display: flex;
     align-items: center;
@@ -298,8 +298,6 @@ section{
     line-height: 2rem;
 }
 
-=======
->>>>>>> 6d8c4d48a96d64ec0811d1e0012f67d55430c475
 @media (max-width:991px){
     html{
         font-size: 55%;
@@ -308,13 +306,11 @@ section{
     .header{
         padding: 2rem;
     }
-<<<<<<< HEAD
+
 
     section{
         padding: 2rem ;
     }
-=======
->>>>>>> 6d8c4d48a96d64ec0811d1e0012f67d55430c475
 }
 
 @media (max-width:768px){
@@ -353,8 +349,4 @@ section{
     html{
         font-size: 50%;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6d8c4d48a96d64ec0811d1e0012f67d55430c475
