@@ -418,6 +418,8 @@ section{
     padding: 3rem 2rem;
     outline-offset: -1rem;
     outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
 }
 
 .products .product-slider .box:hover{
@@ -445,3 +447,4 @@ section{
     font-size: 1.7rem;
     padding: .5rem 0;
 }
+

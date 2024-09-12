@@ -7,7 +7,6 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
@@ -123,9 +122,9 @@
 
         <h1 class="heading"> our <span>products</span></h1>
 
-        <div class="product-slider swiper">
+        <div class="swiper product-slider">
             <div class="swiper-wrapper">
-                <div class="box swiper-slide">
+                <div class="swiper-slide box">
                     <img src="img/product-1.png" alt="">
                     <h3>fresh orange</h3>
                     <div class="price"> $4.99/- - $10.99/-</div>
@@ -139,7 +138,7 @@
                     <a href="#" class="btn">add to cart</a>
                 </div>
 
-                <div class="box swiper-slide">
+                <div class="swiper-slide box">
                     <img src="img/product-2.png" alt="">
                     <h3>fresh onion</h3>
                     <div class="price"> $4.99/- - $10.99/-</div>
@@ -153,7 +152,7 @@
                     <a href="#" class="btn">add to cart</a>
                 </div>
 
-                <div class="box swiper-slide">
+                <div class="swiper-slide box">
                     <img src="img/product-3.png" alt="">
                     <h3>fresh orange</h3>
                     <div class="price"> $4.99/- - $10.99/-</div>
@@ -167,7 +166,7 @@
                     <a href="#" class="btn">add to cart</a>
                 </div>
 
-                <div class="box swiper-slide">
+                <div class="swiper-slide box">
                     <img src="img/product-4.png" alt="">
                     <h3>fresh cabbage</h3>
                     <div class="price"> $4.99/- - $10.99/-</div>
@@ -180,7 +179,11 @@
                     </div>
                     <a href="#" class="btn">add to cart</a>
                 </div>
+            </div>
+        </div>
 
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
                 <div class="box swiper-slide">
                     <img src="img/product-5.png" alt="">
                     <h3>fresh potato</h3>
@@ -237,12 +240,14 @@
                     <a href="#" class="btn">add to cart</a>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
 
 
     <script src="js/script.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 </html>

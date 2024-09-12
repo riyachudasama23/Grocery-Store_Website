@@ -1,3 +1,5 @@
+import Swiper from 'swiper';
+
 let searchForm = document.querySelector('.search-form');
 
 document.querySelector('#search-btn').onclick = () =>{
@@ -34,24 +36,22 @@ window.onscroll = () =>{
 }
 
 var swiper = new Swiper(".product-slider", {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
+    loop: true,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 7500,
+      disableOnInteraction: false,
+    }, 
+    centeredSlides: true,
     breakpoints: {
       0: {
         slidesPerView: 1,
-        spaceBetween: 20,
       },
       768: {
         slidesPerView: 2,
-        spaceBetween: 40,
       },
       1024: {
         slidesPerView: 3,
-        spaceBetween: 50,
       },
     },
   });
